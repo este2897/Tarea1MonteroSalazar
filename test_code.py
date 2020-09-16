@@ -46,3 +46,31 @@ def basic_ops(a, b, op):
         print("Math argument out of domain of func")
         # cuando a o b son strings
         return 33
+
+
+def test_basicops0():
+    assert basic_ops(1, 2, 0) == 3
+
+
+def test_basicops1():
+    assert basic_ops(1, 2, 1) == -1
+
+
+def test_basicops2():
+    assert basic_ops(4, 3, 2) == 0
+
+
+def test_basicops3():
+    assert basic_ops(4, 3, 3) == 7
+
+
+def test_basicopserror3():
+    assert basic_ops(2, 3, 4) == 3
+
+
+def test_basicopserror33():
+    assert basic_ops(4.5, 3, 0) == 33
+
+
+def test_basicopserror75():
+    assert basic_ops(130, 3, 0) == 75
