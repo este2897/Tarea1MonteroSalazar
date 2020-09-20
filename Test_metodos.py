@@ -1,3 +1,6 @@
+# ERR8 x2
+# ERR1
+
 # definicion de la funcion basic ops
 def basic_ops(a, b, op):
     # op es el ID de la operacion
